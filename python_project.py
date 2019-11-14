@@ -60,46 +60,55 @@ while True:
         print('You decided to keep going. ')
         break
 print('You made it to the foot of your stairs and you look at the top of the steps. You see a figure standing at the top. Do you turn on the lights or run?')
-while True:
+attacker_scene = True
+while attacker_scene == True:
     question_4= raw_input('Turn on the Lights or Run?')
     if question_4=='Turn on the Lights':
-        print('You turn on the lights and you see a man at the top of the stairs. He is concealing his face, but you have a feeling that you know him. Should you yell at him, attempting to scare him away, or run towards the front door?')
-        while True:
+        print('You turn on the lights and you see a man at the top of the stairs. He is concealing his face, but you have a feeling that you know him. Should you yell at him, attempting to scare him away, or run towards the front door')
+        while attacker_scene == True:
             question_4a= raw_input('Yell or Run?')
             if question_4a=='Yell':
                 print('You yelled at the man, screaming at him to get out of your house. The man did not move, your threat meant nothing. So, you decided to run afterall. The man jumped down the stairs and chased after you. But you are able to see your path clearly since the light is on, so thankfully you do not trip.')
+                attacker_scene== False
                 break
             elif question_4a=='Run':
                 print('You ran for the door, but the man jumped down the stairs and chased after you. But, you are able to see your path clearly since the light is on, so thankfully you do not trip.')
+                attacker_scene== False
                 break
     elif question_4=='Run':
         print('You ran for the door, but the man jumped down the stairs and chased after you. However, since you left the lights off, you are unable to see where you are going. You end up tripping on something as you are trying to rush out of the house. The figure is getting closer and is about to jump on you to stop you from getting up.')
-        while True:
+        while attacker_scene == True:
             question_4b=raw_input('Get up or Roll away?')
             if question_4b =='Get up':
                 print('You tried to get up quickly, but were not fast enough. The figure was able to tackle you before you could.Your attacker puts all their weight on you, and you cannot breathe. You have to act fast!')
-                while True:
+                while attacker_scene == True:
                     question_4ba=raw_input('Scream or Knee your Attacker?')
                     if question_4ba=='Scream':
                         print('Screaming does nothing and you eventually pass out from the lack of air.')
+                        attacker_scene == False
                         break
                 #comeback to this
                 #either find a way to get the player to try the question again or end the level right there
                     elif question_4ba=='Knee your Attacker':
                         print('You are able to lift your knee up hard. Your attacker wheezes in pain and rolls off of you. You are able to get up, and run to the door.')
+                        attacker_scene == False
                         break
                         #I want to add an option to use the items you grabbed, but I don't know how to do that and how to make the code remember that the player picked out an item or if it will just remember it without me doing anything
             elif question_4b=='Roll away':
                 print('Your attacker attempts to tackle you, but you are able to roll the other way as they fall to the floor. You are able to get up faster than your attacker, so you head towards the door again.')
+                attacker_scene == False
                 break
 print('You were able to get to the door and pull the door open. You ran outside in the pitch black. Your neighbors right next door are friendly and always leave their back door unlock in case their kids get locked out. But, your car is closer.')
-while True:
+final_scene = True
+while final_scene == True:
     question_5= raw_input('Do you Run to your Neighbors or Run to your Car?')
     if question_5=='Run to your Neighbors':
         print('You run to your neighbor, your hear your attacker exiting your house. You start to run a little faster. You get to the back door and it is locked. You forgot that they went out of town for the weekend. You turn to run away, but it’s too late. While you were trying to open the door, your attacker came up behind you. All you saw was him moving his arm down and the moon shining in his eyes. Then, everything goes dark. ')
+        final_scene = False
         break
     elif question_5=='Run to your Car':
         print('You run to your car, you hear your attacker exiting your house. You got to your door and tried to open the door. But you cannot get it opened. Your car is locked. Your attacker comes up behind you, you see him through the reflection of your window. You try to move away, but he grabs the back of your head. Then everything goes dark. ')
+        final_scene = False
         break
 #There will be an extra option if the player grabbed an item but again I don't know if the code remembers you grabbed an item or not.
-#End of Level One, and I think this will be the only level I do, or partially start level 2
+#End of Level One
