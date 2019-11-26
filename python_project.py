@@ -104,6 +104,7 @@ while attacker_scene == True:
                         print('Screaming does nothing and you eventually pass out from the lack of air.')
                         attacker_scene = False
                         exit("You lost consciousness. End of Level 1")
+                        #this allows me to end the game at this point and shows that the player made the wrong choice
                         break
                 #Level 1 will end if you choose this option
                 #makes of for the consequences that yelling didn't have if you turned on the lights
@@ -152,7 +153,7 @@ while final_scene == True:
                 exit("You lost consciousness. End of Level 1")
                 break
                 #I know this doesn't seem realistic, but sometimes is stressful situations like this, some people just think its smart to hide out
-                #I will probably end up changing this eventually, but for now it is fine. 
+                #I will probably end up changing this eventually, but for now it is fine.
         print('You run to your car, you hear your attacker exiting your house. You got to your door and tried to open the door. But you cannot get it opened. Your car is locked. Your attacker comes up behind you, you see him through the reflection of your window. You try to move away, but he grabs the back of your head. Then everything goes dark. ')
         final_scene = False
         exit("You lost consciousness. End of Level 1")

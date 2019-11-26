@@ -1,0 +1,17 @@
+This project is a choose your own adventure, horror game that was inspired by women related crimes.
+As a fan of true crime and horror, I wanted to combine my love for the two by making this game.
+This game is supposed to show how scary being a women in this world is and how they have to think about getting out of scary situations all the time.
+If they slip up and make a mistake, it can end with the women being hurt or killed.
+So, this game is meant to bring awareness to the rising rate of women related crime.
+I only completed one level of the game, but I hope to one day finish and have the ending credit of the game print out statistics of women related crimes
+This way, the game will leave a lasting impact on the people playing it
+
+Project narrative:
+As someone who knew very little about coding, making this game was beyond difficult at first.
+I looked through many models of how to a create your own adventure game should look like, until I found one that actually worked
+However, since I created many sub questions in my questions, I ran into some difficulties.
+Sometimes the code would skip over those questions, wouldn't remember if the player answered that question later on in the game, or kept repeating the question.
+So, I had to create new variables that described the scenes going on and items that I wanted to be able access, which allowed my sub questions to run smoothly and stopped them from repeating themselves.
+I was very fortunate to have a friend who knew code to help me fix the problems in my code and show me what I can do to improve it.
+If I didn't have them, I don't think this code would even Run
+With this first level done, I know how a completed guideline on how to go forward in completing this game
