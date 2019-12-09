@@ -1,0 +1,11 @@
+Comments
+You had good, thorough comments throughout that gave not just the what but the why of the code they were addressing. Your comments were a helpful resource in evaluating the rest of your code.
+
+Code Quality
+This is a really complex endeavor, and I'm pleased you were able to get as much of this completed as you did. I do have some concerns about the structure, especially as relates to keeping the code DRY: shifting this around to use function rather than endless while loops would make the code a bit easier to maintain and would solve the "sub-question" problem you mention in your README.
+
+Ambition
+This is an admirably ambitious and thoughtful project. I very much appreciate the context you gave in the README and the sense of the narrative of the project.
+
+Aesthetics
+The code generally accomplishes the (first stage) of the goals you lay out in your README. I will say that it feels a bit at times like the "right" answers are a little opaque, and the story, as written, doesn't necessarily give the player the sense that you're engaging some larger themes beyond the story itself e.g. the issues of women's safety you raise.
